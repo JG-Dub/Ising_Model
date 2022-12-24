@@ -1,0 +1,26 @@
+
+"""
+Ising Model:
+    
+ The Ising model is a simple model for ferromagnetism in statistical and has been important
+to our understanding of magnetic concepts and the magnetic properties of materials. In this
+investigation we will look to at the properties of a model ferromagnet. While, in general, 
+we could consider any shape lattice in any dimension.This investigation will
+focus on the Ising model for a 2D sqare lattice in the absense of an external magnetic
+field.
+
+The Ising model consits of a lattice of spins, that can be in one of two collinear states (+1 or -1).
+In this investigation we will consider lattices with periodic boundary such that a single site
+will always have 4 nearest neighbours, this can be visualised as a 3 dimensional torus and is often
+refered to as such.
+
+The hamiltonian is simply the sum of pair wise interactions between nearest neighbour spins multiplied
+the interaction constant between neighbouring pairs (J). We will employ a metropolis and monte carlo algorithms
+to asses the evolvution of an initally randomly or perfectly aligned lattice to a state at thermal equilibrium.
+
+From the lattice hamiltonian and magnetization (ie. net lattice spin) a number of lattice properties can be 
+extracted demonstrating a second order phase transition in such thermodynamic systems.
+
+More info: https://farside.ph.utexas.edu/teaching/329/lectures/node110.html
+"""
+
